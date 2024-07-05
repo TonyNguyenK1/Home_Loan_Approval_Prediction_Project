@@ -1,33 +1,32 @@
-# Capston-Project-820
-## Home Loan Approval Prediction Project
+# Home Loan Approval Prediction Project
 # Overview
 This project aims to develop machine learning models for predicting home loan approvals by considering various factors beyond traditional credit scores.
 
 # Project Stages
-Literature Review
-
+## Literature Review
 Review factors influencing loan approvals and machine learning applications.
-Data Collection
 
+## Data Collection
 Dataset from Kaggle with 614 loan application records.
 Attributes: demographics, financial details, loan-specific attributes.
-Data Preprocessing
 
+## Data Preprocessing
 Handle missing values, encode categorical variables, scale numerical features.
-Exploratory Data Analysis (EDA)
 
+## Exploratory Data Analysis (EDA)
 Univariate and bivariate analyses to understand data distribution and relationships.
-Feature Engineering
 
+## Feature Engineering
 Create new features to enhance predictive power.
-Model Selection and Training
 
+## Model Selection and Training
 Models: Logistic Regression, KNN, Decision Trees.
 Evaluation: K-fold cross-validation, accuracy, precision, recall, F1-score, AUC-ROC.
-Model Evaluation and Optimization
 
+## Model Evaluation and Optimization
 Evaluate and optimize models, implement bias mitigation techniques.
-Conclusion
+
+## Conclusion
 
 Summarize findings and discuss future improvements.
 Repository Content
