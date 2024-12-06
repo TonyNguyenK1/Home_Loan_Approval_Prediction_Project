@@ -1,11 +1,96 @@
 # Home Loan Approval Prediction Project
 
-This project aims to develop machine learning models for predicting home loan approvals by considering various factors beyond traditional credit scores.
+## 📋 Overview
 
-The project is divided into several stages: Literature Review, where we review factors influencing loan approvals and machine learning applications; Data Collection, where we gather a dataset from Kaggle containing 614 loan application records with various attributes such as demographics, financial details, and loan-specific attributes; Data Preprocessing, where we handle missing values, encode categorical variables, and scale numerical features; Exploratory Data Analysis (EDA), where we perform univariate and bivariate analyses to understand data distribution and relationships; Feature Engineering, where we create new features to enhance predictive power; Model Selection and Training, where we train models such as Logistic Regression, KNN, and Decision Trees, and evaluate them using K-fold cross-validation, accuracy, precision, recall, F1-score, and AUC-ROC metrics; Model Evaluation and Optimization, where we evaluate and optimize the models and implement bias mitigation techniques; and Conclusion, where we summarize our findings and discuss future improvements.
+This project focuses on analyzing and predicting home loan approval outcomes based on various customer attributes such as income, loan amount, credit history, and more. By building predictive models, the project aims to assist financial institutions in streamlining the loan approval process while minimizing risks.
 
-The repository contains the following directories: datasets/ for the dataset, codes/ for Jupyter notebooks detailing the project workflow, and reports/ for analysis and visualizations.
+## 🎯 Objectives
 
-To get started, ensure you have Python 3.7 or higher and the required libraries (pandas, numpy, scikit-learn, matplotlib, seaborn, jupyter). Clone the repository using git clone https://github.com/TonyNguyenK1/Capston-Project-820.git, navigate into the directory .
+- Understand the key factors influencing home loan approval decisions.
+- Perform data preprocessing and exploratory data analysis (EDA).
+- Build machine learning models to predict loan approval status.
+- Evaluate the models for accuracy and reliability.
 
-The project is contributed by Khoa Truong Nguyen
+## 🛠️ Tools and Technologies
+
+- **Programming Language**: Python
+- **Libraries**: 
+  - Pandas
+  - NumPy
+  - Matplotlib/Seaborn (for data visualization)
+  - Scikit-learn (for machine learning)
+- **Platform**: Jupyter Notebook/Google Colab
+- **Version Control**: GitHub
+
+## 📈 Dataset
+
+- **Source**: Public dataset containing information about loan applicants.
+- **Size**: Contains X rows and Y columns.
+- **Features**:
+  - Applicant Income
+  - Coapplicant Income
+  - Loan Amount
+  - Loan Amount Term
+  - Credit History
+  - Property Area
+  - Loan Approval Status (Target Variable)
+  - ... and more!
+
+## ⚙️ Workflow
+
+1. **Data Preprocessing**:
+   - Handle missing values.
+   - Encode categorical variables.
+   - Scale numerical features for better model performance.
+2. **Exploratory Data Analysis (EDA)**:
+   - Visualize distributions and relationships between variables.
+   - Identify key factors influencing loan approval.
+3. **Modeling**:
+   - Train classification models (e.g., Logistic Regression, Random Forest, Gradient Boosting).
+   - Perform hyperparameter tuning to optimize model performance.
+4. **Evaluation**:
+   - Use metrics such as accuracy, precision, recall, and F1-score.
+   - Compare model results and select the best-performing model.
+
+## 💡 Key Insights
+
+- Identify the most significant features impacting loan approval.
+- Highlight trends and patterns useful for financial decision-making.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python installed on your local machine.
+- Familiarity with Jupyter Notebook/Google Colab.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/home-loan-approval.git
+   cd home-loan-approval
+
+2. Install required libraries:
+   ```bash
+   pip install -r requirements.txt
+
+### Running the Project
+
+1. Open the  Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+   
+2. Navigate to the main notebook file and run the cells step by step.
+
+## 🧩 Future Enhancements
+
+Include additional features for improved prediction accuracy.
+Develop a user-friendly web application for real-time loan approval predictions.
+Explore advanced machine learning techniques like ensemble models or neural networks.
+
+## 🤝 Contribution
+
+Contributions are welcome! Feel free to fork this repository and submit a pull request with improvements or bug fixes.
+
