@@ -25,7 +25,6 @@ This project focuses on analyzing and predicting home loan approval outcomes bas
 ## 📈 Dataset
 
 - **Source**: Public dataset containing information about loan applicants.
-- **Size**: Contains X rows and Y columns.
 - **Features**:
   - Applicant Income
   - Coapplicant Income
